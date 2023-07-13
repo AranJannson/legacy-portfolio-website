@@ -1,0 +1,215 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(35, 35, 35) , rgb(61, 62, 62), rgb(80, 81, 83));
+    width:100%; 
+    min-height: 100%;
+};
+
+h2 {  
+    padding: 25px 0;  
+    text-align: center;  
+    color: #fff;  
+    background: #7c8490;  
+    }  
+    footer {  
+     background: #2d2d2d;  
+      color: white;  
+      margin-top:100px;  
+    }  
+    footer a {  
+      color: #fff;  
+      font-size: 14px;  
+      transition-duration: 0.2s;  
+    }  
+    footer a:hover {  
+      color: #4bc5fa;  
+      text-decoration: none;  
+    }  
+    .copy {  
+      font-size: 12px;  
+      padding: 10px;  
+      border-top: 1px solid #FFFFFF;  
+    }  
+    .footer-middle {  
+      padding-top: 2em;  
+      color: white;  
+    }  
+    ul.social-network {  
+      list-style: none;  
+      display: inline;  
+      margin-left: 0 !important;  
+      padding: 0;  
+    }  
+    ul.social-network li {  
+      display: inline;  
+      margin: 0 5px;  
+    }  
+      
+    .social-network a.icoGitHub:hover {  
+      background-color: #010819;  
+    }  
+    .social-network a.icoLinkedin:hover {  
+      background-color: #007bb7;  
+    }  
+    .social-network a.icoFacebook:hover i  
+    {  
+      color: #fff;  
+    }  
+    .social-network a.icoLinkedin:hover i {  
+      color: #fff;  
+    }  
+    .social-network a.socialIcon:hover {  
+      color: #44BCDD;  
+    }  
+    .socialHoverClass {  
+      color: #44BCDD;  
+    }  
+    .social-circle li a {  
+      display: inline-block;  
+      position: relative;  
+      margin: 0 auto 0 auto;  
+      -moz-border-radius: 50%;  
+      -webkit-border-radius: 50%;  
+      border-radius: 50%;  
+      text-align: center;  
+      width: 30px;  
+      height: 30px;  
+      font-size: 15px;  
+    }  
+    .social-circle li i {  
+      margin: 0;  
+      line-height: 30px;  
+      text-align: center;  
+    }  
+    .social-circle li a:hover i  
+    {  
+      -moz-transform: rotate(360deg);  
+      -webkit-transform: rotate(360deg);  
+      -ms--transform: rotate(360deg);  
+      transform: rotate(360deg);  
+      -webkit-transition: all 0.2s;  
+      -moz-transition: all 0.2s;  
+      -o-transition: all 0.2s;  
+      -ms-transition: all 0.2s;  
+      transition: all 0.2s;  
+    }  
+    .triggeredHover {  
+      -moz-transform: rotate(360deg);  
+      -webkit-transform: rotate(360deg);  
+      -ms--transform: rotate(360deg);  
+      transform: rotate(360deg);  
+      -webkit-transition: all 0.2s;  
+      -moz-transition: all 0.2s;  
+      -o-transition: all 0.2s;  
+      -ms-transition: all 0.2s;  
+      transition: all 0.2s;  
+    }  
+    .social-circle i {  
+      color: #595959;  
+      -webkit-transition: all 0.8s;  
+      -moz-transition: all 0.8s;  
+      -o-transition: all 0.8s;  
+      -ms-transition: all 0.8s;  
+      transition: all 0.8s;  
+    }  
+    .social-network a {  
+      background-color: #F9F9F9;  
+    }  
+    .social-network a:hover {  
+    background: #ff9900;  
+    }  
+    .headerTitle{
+        text-align:center; 
+        border-radius: 20px; 
+        color:white; 
+        height: 70%; 
+        width: 100%; 
+    }
+    .mobile-display{
+      display:none
+    }
+    .desktop-display{
+      display:block
+    }
+    @media (max-width:800px){
+    .desktop-display {
+      display:none
+    }
+    .mobile-display {
+      display:block
+    }
+    }
+    
+    @font-face {
+      font-family: 'Material Icons';
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+      src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    }
+    
+    .material-icons {
+      font-family: 'Material Icons';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;  /* Preferred icon size */
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+    
+      /* Support for all WebKit browsers. */
+      -webkit-font-smoothing: antialiased;
+      /* Support for Safari and Chrome. */
+      text-rendering: optimizeLegibility;
+    
+      /* Support for Firefox. */
+      -moz-osx-font-smoothing: grayscale;
+    
+      /* Support for IE. */
+      font-feature-settings: 'liga';
+    }
+    .material-icons.md-48 { font-size: 48px; }
+
+    table{
+        color: #fff;
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+        
+
+    }
+
+    td{
+        border-bottom: 1px solid #ddd;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .title{
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        padding-bottom: 10px;
+    }
+
+    .fileContainer{
+        background: rgb(22, 21, 21); background: rgba(22, 21, 21, 0.5);
+        border-radius: 10px;
+        border: 3px solid;
+        width: 90%;
+        height: 50%;
+        padding: 10px 0;
+        color: #121111;
+        cursor: pointer;
+        text-align: center;
+        margin: 10px auto;
+    }
