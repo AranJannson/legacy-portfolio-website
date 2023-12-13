@@ -2,7 +2,7 @@
 This repository contains the codebase for a legacy version of my website, which was built using HTML and CSS.
 
 # Overview
-This version of the website was developed using only front-end technologies - HTML for structuring the content and CSS for styling. As a legacy version, it represents an earlier iteration of our online presence.
+This version of the website was developed using only front-end technologies - HTML for structuring the content and CSS for styling. As a legacy version, it represents an earlier iteration of my online presence.
 
 # Folder Structure
 /CSS: Contains the cascading style sheets used for styling the website.
