@@ -7,11 +7,7 @@ This version of the website was developed using only front-end technologies - HT
 # Folder Structure
 /CSS: Contains the cascading style sheets used for styling the website.
 
-/PHP: Contains the hypertext preprocessor files for the implementing cookies.
-
 /Pictures: Stores images and graphics used within the site.
-
-/files.aranjannson.com: Contains the files for the files.aranjannson.com sub site.
 
 /index.html: The main HTML file representing the homepage of the website.
 
